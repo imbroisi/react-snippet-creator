@@ -1,8 +1,8 @@
 {
-  "name": "vscode-extension-react-component-structure",
-  "displayName": "React Create Component Wizard",
-  "description": "Create folder and files structure for a new React component",
-  "version": "1.0.7",
+  "name": "vscode-extension-react-snippet-creator",
+  "displayName": "React Snippet Creator",
+  "description": "Create snippet based on file content",
+  "version": "1.0.1",
   "engines": {
     "node": ">=18.0.0 <21.0.0",
     "vscode": "^1.91.0"
@@ -19,15 +19,13 @@
   ],
   "keywords": [
     "react",
-    "component",
+    "snippet",
     "creator",
-    "wizard",
     "typescript"
   ],
   "main": "./out/extension.js",
   "activationEvents": [
-    "onCommand:extension.createReactComponentWizard",
-    "onCommand:extension.createReactComponentWizardCustomize"
+    "onCommand:extension.createReactSnippet"
   ],
   "icon": "images/logo.png",
   "repository": {
@@ -37,25 +35,16 @@
   "contributes": {
     "commands": [
       {
-        "command": "extension.createReactComponentWizard",
-        "title": "New React Component Wizard"
-      },
-      {
-        "command": "extension.createReactComponentWizardCustomize",
-        "title": "Customize Default Settings..."
+        "command": "extension.createReactSnippet",
+        "title": "Create Snippet From This File"
       }
     ],
     "menus": {
-      "explorer/context": [
+      "editor/context": [
         {
-          "command": "extension.createReactComponentWizard",
-          "when": "explorerResourceIsFolder",
-          "group": "createReactComponentWizardGroup@1"
-        },
-        {
-          "command": "extension.createReactComponentWizardCustomize",
-          "when": "explorerResourceIsFolder",
-          "group": "createReactComponentWizardGroup@2"
+          "command": "extension.createReactSnippet",
+          "when": "editorTextFocus",
+          "group": "createReactSnippetGroup"
         }
       ]
     }
