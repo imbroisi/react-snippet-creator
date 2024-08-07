@@ -1,6 +1,6 @@
-# Contributing to Snippet Wizard
+# Contributing to Create Snippet Wizard
 
-Thank you for considering contributing to `Snippet Wizard`! We welcome contributions from the community and are excited to work with you.
+Thank you for considering contributing to `Create Snippet Wizard`! We welcome contributions from the community and are excited to work with you.
 
 ## How to Contribute
 

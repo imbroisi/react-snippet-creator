@@ -1,4 +1,4 @@
-# VSCode Extension: Snippet Wizard
+# VSCode Extension: Create Snippet Wizard
 <center>
   <img src="https://raw.githubusercontent.com/imbroisi/snippet-wizard/main/images/logo.png">
 </center>
@@ -65,16 +65,17 @@ This is the snippet created, assuming you choose the name `my-snippet`:
 ```
 ## Where is the snippet file saved?
 The snippet is saved in the User's snippets folder of VSCode, and is OS dependent.
-|  SO    | Location                                        |
-|--------|-------------------------------------------------|
-|macOS   |~/Library/Application Support/Code/User/snippets |
-|linux   |~/.config/Code/User/snippets                     | 
-|windows |%APPDATA%\\Code\\User\\snippets\\               |
+
+|   SO        | Location                                         |
+|-------------|--------------------------------------------------|
+| ` macOS `   | ~/Library/Application Support/Code/User/snippets |
+| ` linux `   | ~/.config/Code/User/snippets                     | 
+| ` windows ` | %APPDATA%\\Code\\User\\snippets\\                |
 
 ## Installation
 1. Open Visual Studio Code.
 2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
-3. Search for `Snippet Wizard`.
+3. Search for `Create Snippet Wizard`.
 4. Click `Install` to install the Extension.
 5. Reload Visual Studio Code to activate the Extension.
 

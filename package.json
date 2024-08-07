@@ -1,6 +1,6 @@
 {
   "name": "vscode-extension-snippet-wizard",
-  "displayName": "Snippet Wizard",
+  "displayName": "Create Snippet Wizard",
   "description": "Create snippet based on file content",
   "version": "1.0.1",
   "engines": {
