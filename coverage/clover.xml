@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1723037127791" clover="3.2.0">
+  <project timestamp="1723037127791" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4" elements="18" coveredelements="18" complexity="0" loc="10" ncloc="10" packages="1" files="2" classes="2"/>
+    <file name="generateFinalContent.ts" path="/Users/luiz/code/VSCode/snippet-wizard/src/utils/generateFinalContent.ts">
+      <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+    <file name="toPascalCase.ts" path="/Users/luiz/code/VSCode/snippet-wizard/src/utils/toPascalCase.ts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="4" count="13" type="stmt"/>
+    </file>
+  </project>
+</coverage>
