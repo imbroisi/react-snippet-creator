@@ -10,13 +10,11 @@
  */
 
 import * as vscode from 'vscode';
-import { SNIPPET_FOLDER } from "../data/snippetPaths";
+import { SNIPPET_FOLDER } from "../data/snippetFolder";
 
 export const checkSnippetNameError = async (inputName: string, fullName: string) => {
   const snippetFilePath = vscode.Uri.file(`${SNIPPET_FOLDER}${fullName}`);
   const fileExists = await vscode.workspace.fs.stat(snippetFilePath).then(() => true, () => false);
-
-  // vscode.window.showInformationMessage('fileExists: ' + fileExists);
 
   if (fileExists) {
     const selectdOption = await vscode.window.showQuickPick(['No', 'Yes'], {
@@ -26,9 +24,6 @@ export const checkSnippetNameError = async (inputName: string, fullName: string)
       return 'File already exists';
     }
   }
-
-  vscode.window.showInformationMessage('fileExists: ' + fileExists);
-
 
   // Regular expression to validate file names across macOS, Linux, and Windows
   const inputNameRegex = /^[^<>:"/\\|?*\x00-\x1F]+$/;

@@ -10,19 +10,12 @@ export default async function inputComponentName(uri: vscode.Uri) {
     return { error: 'No file name entered' };
   }
 
-  const fullName = `${inputName}.code-snippets`;
+  const fileName = `${inputName}.code-snippets`;
 
-  // const FolderPath = `${uri.fsPath}/${inputName}`;
-  // const isPathExist = await vscode.workspace.fs.stat(vscode.Uri.file(FolderPath)).then(() => true, () => false);
-  // if (isPathExist) {
-  //   return { error: 'Directory already exists' };
-  // }
-
-  const error = await checkSnippetNameError(inputName, fullName);
+  const error = await checkSnippetNameError(inputName, fileName);
   if (error) {
     return { error };
   };
 
-
-  return { name: fullName };
+  return { inputName, fileName };
 };
