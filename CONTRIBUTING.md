@@ -1,20 +1,20 @@
-# Contributing to React Snippet Creator
+# Contributing to Snippet Wizard
 
-Thank you for considering contributing to `React Snippet Creator`! We welcome contributions from the community and are excited to work with you.
+Thank you for considering contributing to `Snippet Wizard`! We welcome contributions from the community and are excited to work with you.
 
 ## How to Contribute
 
 ### Reporting Bugs
-If you find a bug, please report it by opening an issue on the [GitHub repository](https://github.com/imbroisi/react-snippet-creator). Include as much detail as possible to help us understand and reproduce the issue.
+If you find a bug, please report it by opening an issue on the [GitHub repository](https://github.com/imbroisi/snippet-wizard). Include as much detail as possible to help us understand and reproduce the issue.
 
 ### Suggesting Features
-If you have an idea for a new feature, please open an issue on the [GitHub repository](https://github.com/imbroisi/react-snippet-creator) and describe the feature in detail. We appreciate your suggestions and feedback.
+If you have an idea for a new feature, please open an issue on the [GitHub repository](https://github.com/imbroisi/snippet-wizard) and describe the feature in detail. We appreciate your suggestions and feedback.
 
 ### Submitting Pull Requests
 1. **Fork the Repository**: Fork the repository to your own GitHub account.
 2. **Clone the Repository**: Clone your forked repository to your local machine.
    ```bash
-   git clone https://github.com/imbroisi/react-snippet-creator
+   git clone https://github.com/imbroisi/snippet-wizard
    ```
 3. **Create a Branch**: Create a new branch for your feature or bug fix.
 4. **Make Changes**: Make your changes to the codebase.

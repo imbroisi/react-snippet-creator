@@ -7,7 +7,7 @@ import { openFileInEditor } from './utils/openFileInEditor';
 import { toPascalCase } from './utils/toPascalCase';
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand('extension.createReactSnippet', async (uri: vscode.Uri) => {
+  let disposable = vscode.commands.registerCommand('extension.snippetWizard', async (uri: vscode.Uri) => {
     const { inputName, fileName, error } = await inputComponentName(uri);
     if (error || !fileName) {
       vscode.window.showErrorMessage(error || 'No file name entered');

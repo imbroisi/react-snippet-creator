@@ -4,6 +4,6 @@
 	"recommendations": [
 		"dbaeumer.vscode-eslint",
 		"ms-vscode.extension-test-runner",
-		"luizimbroisi.vscode-extension-react-component-structure"
+		"luizimbroisi.vscode-extension-snippet-wizard"
 	]
 }

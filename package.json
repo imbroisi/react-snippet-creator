@@ -1,6 +1,6 @@
 {
-  "name": "vscode-extension-react-snippet-creator",
-  "displayName": "React Snippet Creator",
+  "name": "vscode-extension-snippet-wizard",
+  "displayName": "Snippet Wizard",
   "description": "Create snippet based on file content",
   "version": "1.0.1",
   "engines": {
@@ -21,30 +21,31 @@
     "react",
     "snippet",
     "creator",
-    "typescript"
+    "typescript",
+    "wizard"
   ],
   "main": "./out/extension.js",
   "activationEvents": [
-    "onCommand:extension.createReactSnippet"
+    "onCommand:extension.snippetWizard"
   ],
   "icon": "images/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imbroisi/vscode-extension-react-component-creator-wizard"
+    "url": "https://github.com/imbroisi/snippet-wizard"
   },
   "contributes": {
     "commands": [
       {
-        "command": "extension.createReactSnippet",
+        "command": "extension.snippetWizard",
         "title": "Create Snippet From This File"
       }
     ],
     "menus": {
       "editor/context": [
         {
-          "command": "extension.createReactSnippet",
+          "command": "extension.snippetWizard",
           "when": "editorTextFocus",
-          "group": "createReactSnippetGroup"
+          "group": "createSnippetWizardGroup"
         }
       ]
     }
