@@ -27,7 +27,7 @@ export default function LetsRock(props: LetsRockProps) {
 }
 ```
 
-1. Right-click in the editor content above.
+1. Right-click in the content above in the editor.
 2. The context menu will be open.
 3. Select `Create Snippet From This File`.
 3. This will open the VSCode `Command Palette` at the top of the VSCode editor.
@@ -63,6 +63,13 @@ This is the snippet created, assuming you choose the name `my-snippet`:
 }
 
 ```
+## Where is the snippet file saved?
+The snippet is saved in the User's snippets folder of VSCode, and is OS dependent.
+|  SO    | Location                                        |
+|--------|-------------------------------------------------|
+|macOS   |~/Library/Application Support/Code/User/snippets |
+|linux   |~/.config/Code/User/snippets                     | 
+|windows |%APPDATA%\\Code\\User\\snippets\\               |
 
 ## Installation
 1. Open Visual Studio Code.

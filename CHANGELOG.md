@@ -6,3 +6,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.1] - 2024-08-06
 ### Added
+Initial version
